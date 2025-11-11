@@ -1,0 +1,37 @@
+{
+  "peers": {
+    "peer1": {
+      "last_heartbeat": 1762845510.0199995,
+      "status": "dead",
+      "host": "127.0.0.1",
+      "port": 9001,
+      "files": {
+        "data.txt": [
+          "hash1",
+          "hash2",
+          "hash3"
+        ]
+      },
+      "dead_since": 1762845549.1266627
+    }
+  },
+  "files": {
+    "data.txt": {
+      "chunks": {
+        "hash1": [
+          "peer1"
+        ],
+        "hash2": [
+          "peer1"
+        ],
+        "hash3": [
+          "peer1"
+        ]
+      },
+      "size": 1234,
+      "uploaded_by": "peer1"
+    }
+  },
+  "created_at": 1700000000.0,
+  "updated_at": 1762845510.0199995
+}
